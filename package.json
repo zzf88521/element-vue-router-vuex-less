@@ -1,0 +1,42 @@
+{
+  "name": "element-starter",
+  "description": "element+vue-router+vuex+less",
+  "author": "447833339@qq.com",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "keywords": [
+    "vue",
+    "less",
+    "element",
+    "vue-router",
+    "vue2.0",
+    "国际化"
+  ],
+  "dependencies": {
+    "element-ui": "^1.0.0",
+    "less": "^2.7.1",
+    "vue": "^2.0.5",
+    "vue-i18n": "^4.9.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.13.2",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "vue-i18n": "^4.9.0",
+    "vue-loader": "^9.8.0",
+    "vue-router": "^2.1.1",
+    "vue-style-loader": "^1.0.0",
+    "vuex": "^2.1.1",
+    "webpack": "beta",
+    "webpack-dev-server": "beta"
+  }
+}
